@@ -10,6 +10,8 @@ RUN set -ex; \
         smbclient \
         supervisor \
 #       libreoffice \
+        cups \
+        cups-bsd \
     ; \
     rm -rf /var/lib/apt/lists/*
 
@@ -23,8 +25,6 @@ RUN set -ex; \
         libc-client-dev \
         libkrb5-dev \
         libsmbclient-dev \
-        cups \
-        cups-bsd \
     ; \
     \
     docker-php-ext-configure imap --with-kerberos --with-imap-ssl; \
