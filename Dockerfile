@@ -9,7 +9,6 @@ RUN set -ex; \
         procps \
         smbclient \
         supervisor \
-#       libreoffice \
         cups \
         cups-bsd \
     ; \
