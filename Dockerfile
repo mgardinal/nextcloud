@@ -1,4 +1,4 @@
-#Nextcloud setup
+#Nextcloud setup 23.0.2
 FROM nextcloud:apache
 
 RUN set -ex; \
